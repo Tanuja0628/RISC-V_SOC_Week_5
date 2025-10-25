@@ -25,7 +25,7 @@ sudo ./setup.sh
 ![setup](snapshots/setup.jpg)
 
 3. Build OpenROAD
- bash```
+bash```
 ./build_openroad.sh --local
 ```
 ![build](snapshots/build.jpg)
@@ -41,13 +41,13 @@ openroad -help
 ![openroad](snapshots/openroad-help.jpg)
 
 5. Run the OpenROAD Flow
-6. bash```
+bash```
 cd flow
 make
 ```
 ![flow](snapshots/flow.jpg)
 
-7. Launch the graphical user interface (GUI) to visualize the final layout
+6. Launch the graphical user interface (GUI) to visualize the final layout
 bash```
  make gui_final
 ```
