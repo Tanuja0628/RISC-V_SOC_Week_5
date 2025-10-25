@@ -16,7 +16,7 @@ The objective of this task is to set up the OpenROAD Flow Scripts environment an
 
 1. Clone the OpenROAD Repository
 
-bash```
+```bash
 
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 cd OpenROAD-flow-scripts
@@ -25,14 +25,14 @@ cd OpenROAD-flow-scripts
 
 2. Run the Setup Script
 
-bash```
+```bash
 sudo ./setup.sh
 ```
 ![setup](snapshots/setup.jpg)
 
 3. Build OpenROAD
    
-bash```
+```bash
 ./build_openroad.sh --local
 ```
 ![build](snapshots/build.jpg)
@@ -40,7 +40,7 @@ bash```
 
 4. Verify Installation
 
-bash```
+```bash
 source ./env.sh
 yosys -help  
 openroad -help
@@ -50,7 +50,7 @@ openroad -help
 
 5. Run the OpenROAD Flow
    
-bash```
+```bash
 cd flow
 make
 ```
@@ -58,7 +58,7 @@ make
 
 6. Launch the graphical user interface (GUI) to visualize the final layout
 
-bash```
+```bash
  make gui_final
 ```
 ![final_gui](snapshots/final_gui.jpg)
