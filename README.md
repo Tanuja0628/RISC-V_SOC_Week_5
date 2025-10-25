@@ -17,8 +17,10 @@ The objective of this task is to set up the OpenROAD Flow Scripts environment an
 1. Clone the OpenROAD Repository
 
 bash```
+
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 cd OpenROAD-flow-scripts
+
 ```
 
 2. Run the Setup Script
