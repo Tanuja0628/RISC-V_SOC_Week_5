@@ -11,20 +11,25 @@ The objective of this task is to set up the OpenROAD Flow Scripts environment an
 - Learn to apply design constraints before routing.
 - Understand how standard cells are arranged to minimize delay, area, and congestion.
 - Observe how physical design choices affect timing and manufacturability.
+  
 ## Steps to Install OpenROAD and Run GUI
+
 1. Clone the OpenROAD Repository
+
 bash```
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 cd OpenROAD-flow-scripts
 ```
 
 2. Run the Setup Script
+
 bash```
 sudo ./setup.sh
 ```
 ![setup](snapshots/setup.jpg)
 
 3. Build OpenROAD
+   
 bash```
 ./build_openroad.sh --local
 ```
@@ -32,6 +37,7 @@ bash```
 ![build](snapshots/build_complete.jpg)
 
 4. Verify Installation
+
 bash```
 source ./env.sh
 yosys -help  
@@ -41,6 +47,7 @@ openroad -help
 ![openroad](snapshots/openroad-help.jpg)
 
 5. Run the OpenROAD Flow
+   
 bash```
 cd flow
 make
@@ -48,6 +55,7 @@ make
 ![flow](snapshots/flow.jpg)
 
 6. Launch the graphical user interface (GUI) to visualize the final layout
+
 bash```
  make gui_final
 ```
